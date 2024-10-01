@@ -9,7 +9,6 @@
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
     <vendor email="1397100450@qq.com">DevGear</vendor>
-
     <description><![CDATA[
         <h2>Object Mapping Constructor Generator</h2>
 
@@ -26,6 +25,26 @@
         </ul>
 
         <p>Eliminate tedious manual field mapping and embrace efficient, error-free code generation. Ideal for projects with complex domain models, multi-layered architectures, or any scenario requiring object-to-object mapping.</p>
+
+        <h3>How to Use:</h3>
+        <ol>
+            <li>Open the Java file containing the target class (the class you want to add the constructor to).</li>
+            <li>Place your cursor inside the class body.</li>
+            <li>Right-click to open the context menu, or use the 'Code' menu in the top menu bar.</li>
+            <li>Navigate to 'Generate' > 'Generate Mapping Constructor'.</li>
+            <li>In the dialog that appears, search for and select the source class (the class you want to map from).</li>
+            <li>Optionally, customize the parameter name for the source object.</li>
+            <li>Click 'OK' to generate the constructor.</li>
+        </ol>
+
+        <p>The plugin will automatically generate a constructor that maps all matching fields from the source object to the target object, taking into account getter methods and Lombok annotations.</p>
+
+        <h3>Tips:</h3>
+        <ul>
+            <li>Use the fuzzy search in the class selection dialog to quickly find the desired source class.</li>
+            <li>The generated constructor will include comments for fields that don't have a matching counterpart in the source class.</li>
+            <li>You can generate multiple constructors for different source classes in the same target class.</li>
+        </ul>
 
         <p>Boost your productivity and maintain clean, consistent code with the Object Mapping Constructor Generator!</p>
     ]]></description>
