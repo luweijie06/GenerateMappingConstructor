@@ -11,11 +11,32 @@
     <vendor email="1397100450@qq.com">DevGear</vendor>
 
     <description><![CDATA[
-   Select a class by placing the cursor on it.
-   Allow the user to search and choose a target class.
-   Automatically create a new instance of the target class using the source class's getter methods to retrieve values, and then call the target class's setter methods to set those values.
-   Allow the user to customize the names of both the target class and the source class.
-]]></description>
+        <h2>Object Mapping Constructor Generator</h2>
+
+        <p>Simplify object-to-object mapping in your Java projects with this intelligent constructor generator.</p>
+
+        <h3>Features:</h3>
+        <ul>
+            <li>Automatically generate constructors that map fields from one object to another</li>
+            <li>Smart detection of getter methods and Lombok annotations</li>
+            <li>User-friendly class selection interface with fuzzy search</li>
+            <li>Customizable parameter naming for the source object</li>
+            <li>Seamless integration with your existing codebase</li>
+            <li>Supports various mapping scenarios: DTO to Entity, Entity to ViewModel, and more</li>
+        </ul>
+
+        <p>Eliminate tedious manual field mapping and embrace efficient, error-free code generation. Ideal for projects with complex domain models, multi-layered architectures, or any scenario requiring object-to-object mapping.</p>
+
+        <p>Boost your productivity and maintain clean, consistent code with the Object Mapping Constructor Generator!</p>
+    ]]></description>
+
+    <change-notes><![CDATA[
+        <ul>
+            <li>Initial release</li>
+            <li>Added support for custom source object parameter naming</li>
+            <li>Improved class selection interface with fuzzy search</li>
+        </ul>
+    ]]></change-notes>
 
     <depends>com.intellij.modules.platform</depends>
     <depends>com.intellij.modules.java</depends>
