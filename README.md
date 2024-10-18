@@ -74,7 +74,11 @@ public User(UserDTO dto) {
 3. 代码生成
     - 自动生成标准的 Java 代码
     - 保持代码格式和样式
+      
+## 系统要求
 
+- IntelliJ IDEA 2023.1 或更高版本
+  
 ## 参与贡献
 
 欢迎提交 Issue 和 Pull Request 来帮助改进这个插件！
